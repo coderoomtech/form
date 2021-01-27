@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Candidate Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+           
+ <div class="container border shadow p-3 mb-5 bg-white rounded ">
+    <center> <img src="logo.jpg" style="height: 200px; width: 200px;"></center>
+   <form>
+
+<br/>
+
+<center><h5>CANDIDATE INFORMATION</h5></center>
+<br/>
+<div class="form-row">
+<div class="form-group col-md-4 sm">
+ <input type="text" class="form-control" id="inputName" placeholder=" Candidate Full Name" required/>
+ </div>
+<div class="form-group col-md-4 sm">
+
+ <select id="inputCountry" class="form-control" required >
+   
+   <option selected>India</option>
+ </select>
+ </div>
+ <div class="form-group col-md-4 sm">
+
+<input type="text" class="form-control" id="inputAddress1" placeholder="  Address1" required/>
+</div>
+</div>
+
+<div class="form-row">
+<div class="form-group col-md-4 sm">
+ <input type="text" class="form-control" id="inputAddress2" placeholder="  Address2" required/>
+ </div>
+ <div class="form-group col-md-4 sm">
+
+<input type="text" class="form-control" id="inputCity" placeholder="City" required/>
+</div>
+
+<div class="form-group col-md-4 sm">
+
+ <select id="inputState" class="form-control"  >
+  
+   <option selected>Maharashtra</option>
+   
+ </select>
+ </div>
+ </div>
+  <div class="form-row">
+<div class="form-group col-md-4 sm">
+
+ <input type="num" class="form-control" id="inputPostalCode" placeholder="PinCode" required/>
+</div>
+<div class="form-group col-md-4 sm">
+<input type="num" class="form-control" pattern="[1-9]{1}[0-9]{9}" id="inputPhoneNumber" placeholder=" Phone No." required/>
+
+</div>
+<div class="form-group col-md-4 sm">
+ 
+ <input type="date" class="form-control" id="inputDateOfBirth" placeholder="D.O.B" required/>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group col-md-4 sm">
+ <input type="num" class="form-control" id="inputPanCard" placeholder="Enter PAN No." required/>
+ </div>
+ <div class="form-group col-md-4 sm">
+
+<input type="num" class="form-control" id="inputAddharCard" placeholder="Enter Addhar No." required/>
+</div>
+<div class="form-group col-md-4 sm">
+
+
+<div class="custom-file" id="customFile" lang="es">
+   <input type="file" class="custom-file-input" id="inputHospitalBill" aria-describedby="fileHelp"/>
+   <label class="custom-file-label" for="exampleInputFile">
+   Upload Candidate photo
+   </label>
+ 
+</div>
+</div>
+
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4 sm">
+     <input type="num" class="form-control" id="inputPanCard" placeholder="age" required/>
+     </div>
+     <div class="form-group col-md-4 sm">
+    
+    <input type="text" class="form-control" id="inputAddharCard" placeholder="Work" required/>
+    </div>
+    <div class="form-group col-md-4 sm">
+    
+    
+    </div>
+    
+    </div>
+
+  <center><button  class="btn btn-outline-success  text-dark" Style="width: 150px;" OnClick="btnSearch_Click" >Submmit</button></center>
+
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+    </body>
+</html>
